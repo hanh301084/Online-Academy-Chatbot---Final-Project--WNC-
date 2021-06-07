@@ -19,5 +19,3 @@ const PORT = 8000;
 app.listen(PORT, function() {
     console.log('Online Course api is running');
 })
-
-
