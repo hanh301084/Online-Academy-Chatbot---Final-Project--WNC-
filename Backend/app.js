@@ -15,7 +15,7 @@ app.get("/", function(req, res) {
 })
 app.use('/api/courses', require('./routes/course.route'));
 
-const PORT = 3000;
+const PORT = 8000;
 app.listen(PORT, function() {
-    console.log('Online Course api is running in at http://localhost:${PORT}');
+    console.log('Online Course api is running');
 })
