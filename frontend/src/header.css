@@ -1,0 +1,41 @@
+header {
+  align-items: center;
+  display: flex;
+  background-color: white;
+  height: 72px;
+  width: 100%;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+li {
+  height: 2rem;
+}
+ul li {
+  display: inline-block;
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute; /*cố định 'category' */
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: white;
+  display: block;
+}
+ul li ul li a {
+  display: block !important;
+  font-size: 0.9rem;
+}
+.item:hover {
+  color: blue;
+}
+.menu:hover {
+  color: blue;
+}
